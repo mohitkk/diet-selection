@@ -1,0 +1,33 @@
+{
+  "name": "diet-selection",
+  "version": "1.0.0",
+  "description": "Project for diet selection",
+  "main": "my.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitkk/diet-selection.git"
+  },
+  "keywords": [
+    "diet",
+    "vegetarian",
+    "non-veg"
+  ],
+  "author": "mohitkk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohitkk/diet-selection/issues"
+  },
+  "homepage": "https://github.com/mohitkk/diet-selection#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.3"
+  }
+}
